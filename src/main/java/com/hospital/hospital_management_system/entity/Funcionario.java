@@ -7,10 +7,10 @@ import lombok.Setter;
 @Setter
 
 public class Funcionario extends Pessoa{
-    private String Cargos;
+    private String cargos;
 
     public Funcionario(int id, String cpf, String DataDeNascimento, String nome, String Cargos) {
         super(id, cpf, DataDeNascimento, nome);
-        this.Cargos = Cargos;
+        this.cargos = cargos;
     }
 }

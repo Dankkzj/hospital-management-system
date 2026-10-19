@@ -7,15 +7,15 @@ import lombok.Setter;
 @Setter
 
 public abstract class Pessoa {
-    private int id;
+    private long id;
     private String cpf;
-    private String DataDeNascimento;
+    private String dataDeNascimento;
     private String nome;
 
     protected Pessoa(int id, String cpf, String DataDeNascimento, String nome){
         this.id = id;
         this.cpf = cpf;
-        this.DataDeNascimento = DataDeNascimento;
+        this.dataDeNascimento = dataDeNascimento;
         this.nome = nome;
     }
 

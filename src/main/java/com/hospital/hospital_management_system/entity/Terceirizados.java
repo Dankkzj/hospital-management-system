@@ -7,10 +7,10 @@ import lombok.Setter;
 @Setter
 
 public class Terceirizados extends Funcionario{
-    private String Empresa;
+    private String empresa;
 
     public Terceirizados(int id, String cpf, String DataDeNascimento, String nome, String Cargos, String Empresa) {
         super(id, cpf, DataDeNascimento, nome, Cargos);
-        this.Empresa = Empresa;
+        this.empresa = empresa;
     }
 }

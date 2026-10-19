@@ -7,14 +7,14 @@ import lombok.Setter;
 @Setter
 
 public class Paciente extends Pessoa{
-    private String TipoSangue;
-    private String Convenio;
-    private String Historico;
+    private String tipoSangue;
+    private String convenio;
+    private String historico;
 
     protected Paciente(int id, String cpf, String DataDeNascimento, String nome, String Historico, String Convenio, String TipoSangue) {
         super(id, cpf, DataDeNascimento, nome);
-        this.Convenio = Convenio;
-        this.Historico = Historico;
-        this.TipoSangue = TipoSangue;
+        this.convenio = convenio;
+        this.historico = historico;
+        this.tipoSangue = tipoSangue;
     }
 }
